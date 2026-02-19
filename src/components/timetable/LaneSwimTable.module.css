@@ -1,0 +1,58 @@
+.wrap {
+  display: grid;
+  gap: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.table thead th {
+  text-align: left;
+  font-weight: 650;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.10);
+  background: rgba(0,0,0,0.02);
+}
+
+.table tbody td {
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  vertical-align: top;
+}
+
+.colDay {
+  width: 160px;
+}
+
+.day {
+  font-weight: 700;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.02);
+  font-weight: 650;
+  font-size: 0.95rem;
+}
+
+.note {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,101 @@
+.wrap {
+  display: grid;
+  gap: 10px;
+}
+
+.legend {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.keySwim, .keyClosed {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0.14);
+}
+
+.keySwim { background: rgba(255, 0, 160, 0.22); }
+.keyClosed { background: rgba(0,0,0,0.04); }
+
+.scroller {
+  overflow: auto;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.table {
+  border-collapse: collapse;
+  min-width: 900px;
+  width: 100%;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+  border-bottom: 1px solid rgba(0,0,0,0.10);
+  padding: 12px 10px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.corner {
+  left: 0;
+  z-index: 3;
+  position: sticky;
+  width: 120px;
+}
+
+.dayHead {
+  text-align: center;
+  font-weight: 700;
+}
+
+.timeCell {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+  border-right: 1px solid rgba(0,0,0,0.08);
+  padding: 10px;
+  font-weight: 650;
+  width: 120px;
+  white-space: nowrap;
+}
+
+.table tbody td {
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-right: 1px solid rgba(0,0,0,0.06);
+}
+
+.cell {
+  width: 110px;
+  height: 26px;
+}
+
+.open {
+  background: rgba(255, 0, 160, 0.22);
+}
+
+.closed {
+  background: rgba(0,0,0,0.03);
+}
+
+/* nice hover so you can scan */
+.cell:hover {
+  outline: 2px solid rgba(0,0,0,0.18);
+  outline-offset: -2px;
+}
+
+.note {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
