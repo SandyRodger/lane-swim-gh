@@ -9,7 +9,8 @@ export const laneSwimWeekly = [
   {
     day: "Tuesday",
     windows: [
-      { start: "10:00", end: "13:00" },
+      { start: "07:00", end: "09:30" },
+      { start: "10:30", end: "15:45" },
       { start: "17:30", end: "18:45" },
       { start: "21:00", end: "22:00" },
     ],
@@ -24,7 +25,6 @@ export const laneSwimWeekly = [
   {
     day: "Thursday",
     windows: [
-      { start: "06:00", end: "12:30" },
       { start: "17:30", end: "22:00" },
     ],
   },
